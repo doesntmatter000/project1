@@ -1,0 +1,205 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../img/casino_background_multicolors_symbols_repeating_flat_design_30968.jpg);
+    z-index: 0;
+}
+
+.conteiner {
+    max-width: 730px;
+    margin: 0 auto;
+}
+
+.footer {
+    background-color: rgb(206, 230, 247);
+    height: 50px;
+    border-bottom: 1px solid black;
+}
+
+.conteiner__footerlincks a{
+    text-decoration: none;
+    color: rgb(95, 57, 57);
+    font-size: 25px;
+    margin-left: 30px;
+    border-radius: 2px;
+    margin-top: 5px;
+    border: 1px solid transparent;
+    transition: all .3s;
+    padding: 5px;
+    margin-bottom: 3px;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+.conteiner__footerlincks a:hover {
+    border: 1px solid rgb(150, 51, 64);
+}
+
+.conteiner__footerlincks ul {
+    display: flex;
+    justify-content: center;
+}
+
+.conteiner__footerlincks li {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.section {
+    max-width: 730px;
+    height: 851px;
+    background-color: rgb(139, 186, 240);
+    margin: 0 auto;
+
+}
+
+.tht {
+    border: 1px solid black;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.content1 {
+    height: 130px;
+    border-bottom: 1px solid black;
+}
+
+.m2 {
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.content1__stats {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+}
+
+.stats p:nth-child(even) {
+    margin-left: 10px;
+    font-size: 19px;
+    color: rgb(15, 73, 160);
+}
+
+.stats p:nth-child(odd) {
+    font-size: 19px;
+    margin-left: 35px;
+}
+
+.stats__double {
+    display: flex;
+}
+
+.stats__double p:nth-child(even) {
+    margin-left: 10px;
+    font-size: 19px;
+    color: rgb(15, 73, 160);
+}
+
+.stats__double p:nth-child(odd) {
+    font-size: 19px;
+    margin-left: 35px;
+}
+
+.content2__stats {
+    position: relative;
+    bottom: 80px;
+    left: 200px;
+}
+
+.stats4 {
+    position: relative;
+    right: 140px;
+}
+
+.stats__double3 {
+    display: flex;
+}
+
+.stats__double3 p:nth-child(odd) {
+    font-size: 19px;
+    margin-left: 35px;
+}
+
+.stats__double3 p:nth-child(even) {
+    margin-left: 10px;
+    font-size: 19px;
+    color: rgb(15, 73, 160);
+}
+
+.content3__stats {
+    position: relative;
+    bottom: 55px;
+    left: 199px;
+}
+
+.stats__double3 p:nth-child(last-child) {
+    position: relative;
+    left: 20px;
+}
+
+.header {
+    height: 60px;
+    background-color: rgb(35, 172, 172);
+}
+
+.h23 {
+    text-align: center;
+    font-family: 'Odibee Sans', cursive;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.ghj {
+    color: transparent;
+}
+
+.ghj:hover {
+    color: black;
+    transition: all .4s;
+}
+
+.skills p{
+    font-size: 25px;
+    text-align: center;
+
+}
+
+.php {
+    border-bottom: 1px solid black;
+}
+
+.exp {
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Odibee Sans', cursive;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.text {
+    padding: 11px;
+}
+
+.text p {
+    font-size: 18px;
+}
